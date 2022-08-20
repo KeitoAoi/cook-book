@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Recipe Registration | Perfect Palate</title>
+    <link rel="shortcut icon" href="/static/admin/img/favicon.ico">
+    <link rel="stylesheet" href="/static/admin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="/static/admin/css/smoothproducts.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container">
+            <a class="navbar-brand logo" href="/admin/categories">Perfect Palate</a>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/admin/index">Sign out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page registration-page">
+        <section class="clean-block clean-form dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Welcome Chef</h2>
+                    <p>Let us know your secret recipe.</p>
+                </div>
+                <form  id="recipe" method="POST" >
+                    <div class="form-group">
+                        <label for="name">Recipe Name</label>
+                        <input class="form-control item" type="text" id="name" name="recipe">
+                    </div>
+                    <div class="form-group" style="width: 165px;">
+                        <label for="name">Preparation Time</label>
+                        <input class="form-control item" type="text" id="name" name="prep" style="width: 142px;" placeholder="In minutes">
+                    </div>
+                    <div class="form-group" style="width: 165px;margin: 0px;margin-right: 0px;margin-left: 277px;margin-top: -86px;">
+                        <label for="name">Cooking Time</label>
+                        <input class="form-control item" type="text" id="name-1" name="cook" style="width: 142px;" placeholder="In minutes">
+                    </div>
+                    <div class="form-group" style="width: 150px;margin: 0px;margin-right: 0px;margin-left: 160px;margin-top: -70px;">
+                        <label for="name">Servings</label>
+                        <input class="form-control item" type="text" id="name-1" name="servings" style="width: 100px;" placeholder="">
+                    </div>
+                    <div class="form-group" style="margin-top: 17px;">
+                        <label for="name">Category</label>
+                        <select name="recipes" id="recipe">
+                            <option value="Indian">Indian</option>
+                            <option value="Continental">Continental</option>
+                            <option value="Korean">Korean</option>
+                            <option value="Chinese">Chinese</option>
+                            <option value="Thai">Thai</option>
+                            <option value="Caribbean">Caribbean</option>
+                          </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Description</label>
+                        <textarea class="form-control form-control-sm" name="about" style="height:90px;width: 420px;" placeholder="Describe your dish briefly"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Ingredients</label>
+                        <textarea class="form-control form-control-sm" name="ingredients" style="height: 200px;width: 420px;" placeholder="Add commas &quot;,&quot; at end of each ingredient.                            For eg: 1 - Tomato, 1 - Pickle"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Procedure</label>
+                        <textarea class="form-control form-control-sm" name="procedure" style="height: 200px;width: 420px;" placeholder="Add commas &quot;,&quot; at end of each procedure.                            For eg: Add oil to the pan, Add onions"></textarea>
+                    </div>
+                        <button class="btn btn-primary" type="submit" style="width: 420px;margin-left: 0px;">Upload your recipe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>

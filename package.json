@@ -1,0 +1,45 @@
+{
+  "name": "recipe-book",
+  "version": "1.0.0",
+  "description": "- This is a simple collaborative project developed using nodeJS and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node registration.js",
+    "dev": "nodemon registration.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithish155/recipe-book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nithish155/recipe-book/issues"
+  },
+  "homepage": "https://github.com/Nithish155/recipe-book#readme",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "body-parser": "^1.19.0",
+    "bson-objectid": "^2.0.1",
+    "connect": "^3.7.0",
+    "connect-mongo": "^4.4.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.10.0",
+    "formidable": "^1.2.2",
+    "fs": "*",
+    "gridfs-stream": "^1.1.1",
+    "http": "*",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.3",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "nodemon": "^2.0.7",
+    "password-validator": "^5.1.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^10.16.6"
+  }
+}
